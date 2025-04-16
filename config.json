@@ -1,0 +1,34 @@
+{
+    "name":"project-test",
+
+	"type":"factor",
+	
+	"input":[],
+
+	"output":[
+		{
+            "group_name":"project-test",
+            "fields":[
+                "test1"
+            ],
+            "category_1":"",
+            "category_2":"",
+            "category_3":"",
+            "target":"",
+            "description":""
+        }
+	],
+
+	"history":{
+		"external_source":"project.py",
+		"mode":"batch",
+        "class_name":"Project"
+	},
+
+	"schedule":["****-**-** 10:30:00"],
+	
+	"computation":{
+		"external_source":"project.py",
+        "class_name":"Project"
+	}
+}
